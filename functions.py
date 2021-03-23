@@ -44,9 +44,6 @@ def biggest_rectangle(rectangles):
     """
     return [side for side in rectangles if side[0]*side[1] == max([side[0]*side[1] for side in rectangles])][0]
 
-    # rectangles.sort(key=max)
-    # return rectangles[0]
-
 
 def find_in_file(pattern, filename):
     """
